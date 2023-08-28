@@ -13,7 +13,7 @@
 }
 .menu{
     display: flex;
-    
+
     
 }
 .item{
@@ -24,4 +24,66 @@
 }
 .item:hover{
     color: blue;
+}
+/* banner css */
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#524e4e,#000);
+    color: white;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.paragp{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.ex-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.ex-btn:hover{
+    background: orange;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+}
+.about-p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.about-heading{
+    font-size: 400;
+}
+.box{
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    box-shadow:  4px 4px 15px gray;
+    padding: 15px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
